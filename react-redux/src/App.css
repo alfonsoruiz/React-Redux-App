@@ -1,22 +1,39 @@
-.App {
+* {
+  box-sizing: border-box;
+}
+
+img {
+  width: 200px;
+  align-self: center;
+  cursor: pointer;
+}
+
+h1 {
+  text-align: center;
+  padding: 10px 30px;
+  border-radius: 5px;
+  font-size: 24px;
+  width: 300px;
+  background: #1a3546;
+  margin-bottom: 150px;
+}
+
+h2 {
+  align-self: center;
+  margin-top: 50px;
+  font-size: 180px;
+}
+
+p {
+  font-family: 'Amatic SC', cursive;
+  color: #1a3546;
+  font-size: 40px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.App {
+  padding: 0 300px;
+  color: white;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #09d3ac;
 }
