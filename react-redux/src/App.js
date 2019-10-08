@@ -13,7 +13,7 @@ const App = props => {
   return (
     <div className="App">
       <h1>Inside Kanye's Brain</h1>
-      <p>Click on me to experiance my genius</p>
+      <p>Click on me to experience my genius</p>
       <img
         alt="kanye west"
         onClick={getQuote}
