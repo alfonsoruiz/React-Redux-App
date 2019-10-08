@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "name": "inside-kanyes-brain",
+  "builds": [
+    {
+      "src": "react-redux/package.json",
+      "use": "@now/static-build",
+      "config": {
+        "distDir": "build"
+      }
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "inside-kanyes-brain/$1"
+    }
+  ]
+}
